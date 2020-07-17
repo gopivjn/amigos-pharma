@@ -120,3 +120,33 @@ img {
   font-weight: bold;
   color: #009879;
 }
+/* Footer */
+#main-footer {
+  background: #35363b;
+  color: #fff;
+  padding: 50px;
+}
+
+#main-footer img {
+  width: 175px;
+}
+#main-footer a {
+  color: #fff;
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+#main-footer p {
+  font-size: 12px;
+}
+
+#main-footer a:hover {
+  color: #28a745;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: 2fr 4fr 4fr;
+  grid-gap: 2rem;
+}
