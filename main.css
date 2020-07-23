@@ -121,6 +121,7 @@ img {
   color: #009879;
 }
 /* Footer */
+
 #main-footer {
   background: #35363b;
   color: #fff;
@@ -133,6 +134,7 @@ img {
 #main-footer a {
   color: #fff;
   list-style: none;
+  text-decoration: none;
 }
 ul {
   list-style: none;
@@ -147,6 +149,6 @@ ul {
 
 #main-footer .footer-container {
   display: grid;
-  grid-template-columns: 2fr 4fr 4fr;
+  grid-template-columns: 2fr 7fr 2fr;
   grid-gap: 2rem;
 }
