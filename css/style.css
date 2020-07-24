@@ -102,7 +102,7 @@ img {
 */
 
 #about {
-  background: url("../img/about_us.jpg") no-repeat center center/cover;
+  background: url("../img/about_us3.png") no-repeat top center/cover;
 
   /* center center/cover */
 }
@@ -113,7 +113,7 @@ img {
 
 .hero {
   background: url("../img/main_banner.jpg") no-repeat center center/cover;
-  height: 90vh;
+  height: 95vh;
   position: relative;
   color: #fff;
   /* object-fit: fill;
@@ -170,17 +170,25 @@ img {
 #card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
+  grid-gap: 30px;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 100;
 }
 
 #card-grid .cards {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: grid;
+  grid-gap: 8px;
+  /* flex-wrap: wrap;
+  flex-direction: column; */
   border-radius: 3px;
   margin: 20px;
   cursor: pointer;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #card-grid a:visited .fa {
@@ -194,7 +202,7 @@ h3 {
   font-weight: 500;
   text-align: center;
 }
-.flex-items {
+*/ .flex-items {
   align-items: center;
   justify-content: center;
 }
@@ -220,8 +228,17 @@ h3 {
   display: block;
   margin: 0 auto 1rem auto;
   border-radius: 10px;
-  display: block;
   margin-bottom: 60px;
+}
+
+.bottom-line2 {
+  height: 0.4rem;
+  width: 6rem;
+  background: #28a745;
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  /* margin-bottom: 60px; */
 }
 .title-style {
   padding-top: 50px;
@@ -248,9 +265,16 @@ h3 {
   padding-bottom: 40px;
 } */
 
-/* #location {
-  border-top: 2px solid #0284d0;
-} */
+#location {
+  padding-bottom: 50px;
+}
+
+/* Location */
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
 
 /* Footer */
 #main-footer {
