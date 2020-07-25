@@ -227,6 +227,13 @@ h3 {
   border-radius: 10px;
   /* margin-bottom: 60px; */
 }
+.bottom-line3 {
+  height: 0.4rem;
+  width: 4.5rem;
+  background: #41aeef;
+  display: block;
+  margin-bottom: 60px;
+}
 .title-style {
   padding-top: 50px;
   padding-bottom: 5px;
