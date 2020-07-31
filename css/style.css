@@ -133,6 +133,18 @@ img {
   flex-direction: column;
 }
 
+#green .column-2 {
+  padding: 55px;
+}
+
+#products .column-2 {
+  padding: 35px;
+}
+
+#expertise .column-2 {
+  padding: 55px;
+}
+
 #card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -433,6 +445,18 @@ tbody img {
     margin: 30px;
     grid-gap: 20px;
   }
+
+  #green .column-2 {
+    padding: 80px;
+  }
+
+  #products .column-2 {
+    padding: 40px;
+  }
+
+  #expertise .column-2 {
+    padding: 80px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -543,6 +567,18 @@ tbody img {
   }
   .content-table {
     font-size: 0.9em;
+  }
+
+  #green .column-2 {
+    padding: 100px;
+  }
+
+  #products .column-2 {
+    padding: 50px;
+  }
+
+  #expertise .column-2 {
+    padding: 100px;
   }
 }
 
