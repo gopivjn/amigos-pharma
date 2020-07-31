@@ -66,6 +66,10 @@ img {
   padding-bottom: 10px;
 }
 
+.active {
+  color: #28a745;
+}
+
 .navbar img {
   padding-top: 20px;
   width: 250px;
@@ -300,7 +304,7 @@ tbody img {
 }
 
 .content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #f4f6ff;
 }
 
 .content-table tbody tr:last-of-type {
@@ -599,5 +603,8 @@ tbody img {
   #card-grid .cards {
     display: flex;
     justify-content: left;
+  }
+  #expertise ul {
+    font-size: 17px;
   }
 }
