@@ -595,7 +595,9 @@ tbody img {
     display: grid;
     grid-template-columns: 1fr;
   }
-  #expertise ul li {
-    font-size: 12px;
+
+  #card-grid .cards {
+    display: flex;
+    justify-content: left;
   }
 }
