@@ -503,6 +503,9 @@ tbody img {
     font-size: 18px;
   }
 
+  .navbar ul {
+    font-size: 18px;
+  }
   /* Solutions section */
 
   .flex-columns.flex-reverse .row {
