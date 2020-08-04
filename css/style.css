@@ -72,13 +72,13 @@ img {
 
 .navbar img {
   padding-top: 10px;
-  width: 250px;
+  width: 150px;
   /* padding-bottom: 10px; */
 }
 
 /* Header */
 .hero {
-  background: url("../img/AMS/main_banner.jpg") no-repeat center center/cover;
+  background: url("../img/AMS/main_banner1.jpeg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
@@ -158,9 +158,9 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 8px;
   padding-top: 20px;
-  align-items: center;
   justify-content: center;
   text-align: center;
+  align-items: flex-start;
   font-weight: 100;
 }
 
@@ -172,7 +172,7 @@ img {
   border-radius: 3px;
   margin: 20px;
   cursor: pointer;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
 }
@@ -222,7 +222,7 @@ h3 {
   margin: 0 auto 0 auto;
   border-radius: 10px;
   margin-bottom: 50px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 .bottom-line3 {
   height: 0.4rem;
@@ -428,6 +428,11 @@ tbody img {
     display: flex;
     flex-direction: row;
   }
+
+  .navbar img {
+    margin-left: 3rem;
+  }
+
   #card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -478,6 +483,14 @@ tbody img {
 }
 
 @media (min-width: 1440px) {
+  .navbar img {
+    padding-top: 10px;
+    width: 250px;
+    margin-left: 6rem;
+
+    /* padding-bottom: 10px; */
+  }
+
   .hero {
     height: 90vh;
   }
